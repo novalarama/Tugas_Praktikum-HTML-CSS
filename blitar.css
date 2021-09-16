@@ -1,0 +1,300 @@
+*{
+    font-family: poppins;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+/* style berikut ini akan diterapkan pada komponen HTML
+        yang mempunyai class yg mengandung keyword "col-" */
+        [class*="col-"] { float: left; padding: 15px; }
+
+        /* For Smartphone */
+        [class*="col-"] { width: 100%; }
+        
+        /* for tablet */
+        @media only screen and (min-width: 600px){
+            .col-md-1 { width: 8.33% } /* 1/12 x 100% */
+            .col-md-2 { width: 16.66% } /* 2/12 x 100% */
+            .col-md-3 { width: 25% } /* 3/12 x 100% */
+            .col-md-4 { width: 33.33% } /* 4/12 x 100% */
+            .col-md-5 { width: 41.66% } /* 5/12 x 100% */
+            .col-md-6 { width: 50% } /* 6/12 x 100% */
+            .col-md-7 { width: 58.33% } /* 7/12 x 100% */
+            .col-md-8 { width: 66.66% } /* 8/12 x 100% */
+            .col-md-9 { width: 75% } /* 9/12 x 100% */
+            .col-md-10 { width: 83.33% } /* 10/12 x 100% */
+            .col-md-11 { width: 91.66% } /* 11/12 x 100% */
+            .col-md-12 { width: 100% } /* 12/12 x 100% */
+        }
+        
+        /* for PC */
+        @media only screen and (min-width: 768px){
+            .col-lg-1 { width: 8.33% } /* 1/12 x 100% */
+            .col-lg-2 { width: 16.66% } /* 2/12 x 100% */
+            .col-lg-3 { width: 25% } /* 3/12 x 100% */
+            .col-lg-4 { width: 33.33% } /* 4/12 x 100% */
+            .col-lg-5 { width: 41.66% } /* 5/12 x 100% */
+            .col-lg-6 { width: 50% } /* 6/12 x 100% */
+            .col-lg-7 { width: 58.33% } /* 7/12 x 100% */
+            .col-lg-8 { width: 66.66% } /* 8/12 x 100% */
+            .col-lg-9 { width: 75% } /* 9/12 x 100% */
+            .col-lg-10 { width: 83.33% } /* 10/12 x 100% */
+            .col-lg-11 { width: 91.66% } /* 11/12 x 100% */
+            .col-lg-12 { width: 100% } /* 12/12 x 100% */
+        }
+
+
+.logo{
+    padding-top: 5px;
+    float: left;
+    padding-bottom: 0;
+    
+}
+.logo img{
+    margin-left: -50px;
+}
+.navigasi{
+    padding-top: 0px;
+    padding-right: 0;
+    margin: 0;
+}
+.navigasi ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 10px;
+}
+.tab-bar{
+    box-shadow: 0px 5px 20px gray;
+    text-align: center;
+    border-radius: 20px;
+    position: fixed;
+    width: 100%;
+    left: -2px;
+    top: -18px;
+    padding-top: 30px;
+    background-color: white;
+}
+.navigasi ul li{
+    float: left;
+    text-align: center;
+    padding-left: 25px;
+    font-size: 120%;
+    font-weight: bold;
+    margin-right: 40px;
+}
+#signin a{
+    color: white;
+}
+#login a{
+    color: white;
+}
+#signin{
+    margin-left: 55px;
+    margin-top: -5px;
+    background-color: #48CAE4;
+    border-radius: 20px;
+    border: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#signin a:hover{
+    color: #48CAE4;
+}
+#signin:hover{
+    margin-left: 55px;
+    margin-top: -5px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #48CAE4;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+#login{
+    margin-left: -5px;
+    margin-top: -5px;
+    background-color: #48CAE4;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#login a:hover{
+    color: #48CAE4;
+}
+#login:hover{
+    margin-left: -5px;
+    margin-top: -5px;
+    background-color: white;
+    border-radius: 20px;
+    color: #48CAE4;
+    border: 2px solid #48CAE4;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+/*Bagian headline*/
+#headline{
+    margin-top: 120px;
+}
+.sambutan{
+    margin-top: 50px;
+}
+.sambutan h5{
+
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -18px;
+}
+.sambutan h3{
+    font-size: 100px;
+    margin-top: -12%;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: #48CAE4;
+}
+.sambutan p{
+    margin-left: 15px;
+    margin-top: -10px;
+    line-height: 230%;
+    background: linear-gradient(#CAF0F8, #90E0EF);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.ilustrasi1 img{
+    float: right;
+    margin-top: -10px;
+}
+
+/*Bagian sub-headline*/
+
+#sub-headline h1{
+    text-align: center;
+    font-size: 40px;
+}
+#sub-headline h6{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    font-weight: normal;
+    margin-top: -20px;
+}
+.why-icon{
+    text-align: center;
+}
+.why-icon i{
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.why-icon h5{
+    font-size: 20px;
+}
+#icon1 i{
+    color: #C9A227;
+    background-color: #FFE169;
+}
+#icon2 i{
+    color: #0077B6;
+    background-color: #90E0EF;
+}
+#icon3 i{
+    color: #C7357F;
+    background-color: #F0CCDE;
+}
+#icon4 i{
+    color: #40916C;
+    background-color: #B7E4C7;
+}
+
+/*bagian foto*/
+#bupati{
+background-color: #48CAE4;
+border-radius: 60px;
+}
+#bupati ul li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 130%;
+}
+#bupati ul{
+    text-align: center;
+}
+.sambutan-bupati h1{
+    font-size: 600%;
+    padding-top: -100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 10px
+} 
+.sambutan-bupati p{
+    margin-left: 10px;
+}
+
+/*Bagian 5*/
+#explore{
+    margin-top: 40px;
+}
+#jelajahblitar{
+    padding-top: 20px;
+}
+#jelajahblitar h1{
+    font-size: 50px;
+}
+.video{
+    float: right;
+}
+.explore{
+    padding-left: 0;
+    padding-top: 20px;
+}
+.back-foto{
+width: 450px;
+background-color: #CAF0F8;
+padding: 15px;
+margin-left: 25px;
+margin-right: 20px;
+margin-bottom: 20px;
+float: left ;
+border-radius: 20px;
+text-align: center;
+
+}
+.nama{
+text-align: center;
+font-size: 30px;
+color: #263238;
+font-weight: bolder;
+}
+#blitar-park{
+    height: 220px;
+}
+
+/*Bagian akhir*/
+#information{
+    box-shadow: 0px -1px 0px lightgray;
+    margin-top: 40px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.aplikasi ul{
+    list-style-type: none;
+}
+.bottom-bar{
+    text-align: center;
+}
